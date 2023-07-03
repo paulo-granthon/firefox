@@ -1,0 +1,54 @@
+/*
+░▀█▀░█▀▄░█▀█░█▀█░█▀▀░█▀█░█▀█░█▀▄░█▀▀░█▀█░█▀▀░█░█
+░░█░░█▀▄░█▀█░█░█░▀▀█░█▀▀░█▀█░█▀▄░█▀▀░█░█░█░░░░█░
+░░▀░░▀░▀░▀░▀░▀░▀░▀▀▀░▀░░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░
+
+Main window
+*/
+#main-window {
+	font-kerning: normal;
+	border: none !important;
+
+	background: var(--bf-main-window) !important;
+	-moz-appearance: var(--bf-moz-appearance) !important;
+}
+
+
+menupopup > *:not(label):not([disabled="true"]):not(.menu-iconic-left):not(.menu-accel-container):not(image):not(:hover) {
+    color: #000 !important;
+}
+menupopup:not(#BMB_bookmarksPopup) {
+    appearance: none !important;
+    background-color: #F5F5F5 !important;
+    border: 10px solid transparent !important;
+    border-radius: 15px !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
+    margin: -10px !important;
+}
+.menupopup-arrowscrollbox:not([part="arrowscrollbox"]),
+.menupopup-arrowscrollbox[exportparts="scrollbox: arrowscrollbox-scrollbox"] {
+    appearance: none !important;
+    background-color: transparent !important;
+    box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.4) !important;
+    border-radius: 4px !important;
+    border: 1px solid rgba(0,0,0,0.2) !important;
+    overflow: hidden !important;
+}
+
+
+/*
+░█▀▀░█▀█░█▀█░▀█▀
+░█▀▀░█░█░█░█░░█░
+░▀░░░▀▀▀░▀░▀░░▀░
+
+I'm not sure if this does something
+*/
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: none;
+	font-kerning: normal;
+}

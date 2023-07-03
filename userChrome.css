@@ -1,0 +1,94 @@
+/*
+░█▀▀░█▀█░█░░░█▀█░█▀▄░█▀▀
+░█░░░█░█░█░░░█░█░█▀▄░▀▀█
+░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀
+
+Load preferred colorscheme
+*/
+
+/* Blurred Color Scheme */
+@import url('colors/blurred.css');
+
+/* Solid Color Scheme */
+/*
+@import url('colors/solid.css');
+*/
+
+/*
+░█░█░▀█▀░░░█▀▀░█░░░█▀▀░█▄█░█▀▀░█▀█░▀█▀░█▀▀
+░█░█░░█░░░░█▀▀░█░░░█▀▀░█░█░█▀▀░█░█░░█░░▀▀█
+░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀
+
+Load Customized Firefox's UI Elements
+*/
+
+@import url('parts/main-window.css');
+@import url('parts/toolbar.css');
+@import url('parts/tabbar.css');
+@import url('parts/urlbar.css');
+@import url('parts/sidebar.css');
+@import url('parts/arrow-panel.css');
+@import url('parts/findbar.css');
+@import url('parts/context-menu.css');
+@import url('parts/customization-window.css');
+@import url('parts/window-controls.css');
+
+
+
+
+@import url("ffmodblur/privacy_change_email_text.css");
+@import url("ffmodblur/privacy_blur_email_in_main_menu.css");
+@import url("ffmodblur/privacy_blur_email_in_sync_menu.css");
+@import url("ffmodblur/firefox_view_icon_change.css");
+@import url("ffmodblur/spill-style-part1-file.css");
+@import url("ffmodblur/white_github_icon_in_bookmarks.css");
+@import url("ffmodblur/hide_list-all-tabs_button.css");
+@import url("ffmodblur/bookmarks_bar_same_color_as_toolbar.css");
+@import url("ffmodblur/min-max-close_buttons.css");
+@import url("ffmodblur/acrylic_micaforeveryone.css");
+@import url("ffmodblur/privacy_blur_tabs_content.css");
+@import url("ffmodblur/popout_bookmarks_bar_on_hover.css");
+@import url("ffmodblur/remove_folder_icons_from_bookmarks.css");
+@import url("ffmodblur/icons_in_main_menu.css");
+@import url("ffmodblur/ublock-icon-change.css");
+@import url("ffmodblur/give_more_width_to_active_tab.css");
+@import url("ffmodblur/autohide_tab_and_bookmarks_bars.css");
+@import url("ffmodblur/url_bar_no_border.css");
+@import url("ffmodblur/search_bar_transparent_background.css");
+@import url("ffmodblur/transparent_bookmarks_bar.css");
+@import url("ffmodblur/cleaner_extensions_menu.css");
+
+#PanelUI-button {
+  -moz-box-ordinal-group: 3 !important; 
+	color: var(--fg-color);
+}
+
+
+#PlacesToolbarItems menupopup > hbox {
+	color: var(--fg-color);
+  background: var(--fg-bg) !important;
+}
+
+
+box.panel-arrowbox {
+	display: none;
+}
+
+box.panel-arrowcontent {
+	border-radius: 8px !important;
+	border: none !important;
+}
+
+
+
+menupopup{
+  --menuitem-hover-background-color: #e0e0e6 !important;
+  --menu-background-color: #f9f9fb !important;
+  --menu-color: #15141a !important;
+  --menuitem-disabled-hover-background-color: rgba(224, 224, 230, 0.4) !important;
+  --menu-disabled-color: rgba(21, 20, 26, 0.4) !important;
+  --menu-border-color: #cfcfd8!important;
+  --menu-icon-opacity: 0.7 !important;
+}
+
+

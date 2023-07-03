@@ -1,0 +1,63 @@
+/*
+░▀█▀░█▀█░█▀█░█░░░█▀▄░█▀█░█▀▄
+░░█░░█░█░█░█░█░░░█▀▄░█▀█░█▀▄
+░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀░░▀░▀░▀░▀
+
+Contains navbar, urlbar, and etc.
+*/
+
+.browser-toolbar {
+	background: var(--bf-tab-toolbar-bg) !important;
+}
+
+toolbar {
+	background-image: none !important;
+}
+
+toolbar#nav-bar {
+	padding: var(--bf-navbar-padding) !important;
+	
+	/* Remove horizontal line on navbar */
+	box-shadow: none !important;
+	border-top: none !important;
+	background: var(--bf-navbar-bg) !important;
+}
+
+toolbarbutton {
+	box-shadow: none !important;
+	margin-left: 2px !important;
+}
+
+.toolbarbutton-1 {
+	--toolbarbutton-hover-background: var(--bf-hover-bg) !important;
+	--toolbarbutton-active-background: var(--bf-active-bg) !important;
+}
+
+#searchbar {
+	border: none !important;
+	background: var(--bf-bg) !important;
+}
+
+.searchbar-textbox {
+	font-weight: 700 !important;
+}
+
+#navigator-toolbox,
+toolbaritem {
+	border: none !important;
+}
+
+#navigator-toolbox::after {
+	border-bottom: 0 !important;
+}
+
+.toolbarbutton-text {
+	color: var(--bf-icon-color)  !important;
+}
+
+/* Back button */
+#back-button > .toolbarbutton-icon {
+	--backbutton-background: transparent !important;
+	border: none !important;
+	-moz-appearance: var(--bf-moz-appearance) !important;
+}
